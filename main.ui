@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>996</width>
+    <width>995</width>
     <height>846</height>
    </rect>
   </property>
@@ -269,6 +269,105 @@
     <string/>
    </property>
   </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>90</y>
+     <width>651</width>
+     <height>591</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>700</y>
+     <width>651</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_butt">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>730</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_but">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>730</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>изменить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="error_label">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>770</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Выберете кофе!</string>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>listWidget</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>ID_lab</zorder>
+  <zorder>label_4</zorder>
+  <zorder>name_lab</zorder>
+  <zorder>label_5</zorder>
+  <zorder>degree</zorder>
+  <zorder>label_6</zorder>
+  <zorder>taste</zorder>
+  <zorder>label_7</zorder>
+  <zorder>status</zorder>
+  <zorder>label_9</zorder>
+  <zorder>price</zorder>
+  <zorder>label_10</zorder>
+  <zorder>volum</zorder>
+  <zorder>listView_2</zorder>
+  <zorder>add_butt</zorder>
+  <zorder>change_but</zorder>
+  <zorder>error_label</zorder>
  </widget>
  <resources/>
  <connections/>
